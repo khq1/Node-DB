@@ -3,21 +3,7 @@ import express from 'express';
 const app = express();
 const PORT = 8000;
 app.get('/', (req, res) => res.json({
-  "Commands:": "Polecenia:",
-  "Options:": "Opcje:",
-  "Examples:": "Przykłady:",
-  "boolean": "boolean",
-  "count": "ilość",
-  "string": "ciąg znaków",
-  "number": "liczba",
-  "array": "tablica",
-  "required": "wymagany",
-  "default": "domyślny",
-  "default:": "domyślny:",
-  "choices:": "dostępne:",
-  "aliases:": "aliasy:",
-  "generated-value": "wygenerowana-wartość"
-}
+  "Response:":  "Stop bothering me, I am not in the mood to doing responses now!"}
 ))
 app.listen(PORT, () => {
   console.log(`⚡️[server]: Server is running at https://localhost:${PORT}`);
